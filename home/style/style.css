@@ -84,12 +84,12 @@ body * {
 }
 
 .textfield>label {
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 
 .textfield>input::placeholder {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.495);
 }
 
 .btn-login {

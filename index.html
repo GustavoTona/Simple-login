@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Login V.2</title>
-    <link rel="shortcut icon" href="./assets/img/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./home/style/style.css">
+    <title>Login - Business</title>
+    <link rel="shortcut icon" href="./home/img/icon.png" type="image/x-icon">
 
 </head>
 
@@ -16,7 +16,7 @@
 
         <div class="left-login">
             <h1>Sign in<br>And join our team.</h1>
-            <img src="./assets/img/animation.svg" class="image">
+            <img src="./home/img/animation.svg" class="image">
         </div>
 
         <div class="right-login">
@@ -25,20 +25,24 @@
                 <h1>Login Account</h1>
 
                 <div class="textfield">
-                    <label for="user">User</label>
-                    <input type="text" name="user" placeholder="User">
+                    <label for="user"></label>
+                    <input id= "user" type="text" name="user" placeholder="User">
                 </div>
 
                 <div class="textfield">
-                    <label for="Password">Password</label>
-                    <input type="password" name="password" placeholder="Password">
+                    <label for="Password"></label>
+                    <input id="password" type="password" name="password" placeholder="Password">
                 </div>
-                <button class="btn-login">Login</button>
+                <button type= "submit" onclick="logar(); return false" class="btn-login">Login</button>
 
                 <a href="./index-form.html" id="create">Create your Account</a>
 
             </div>
         </div>
+
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
